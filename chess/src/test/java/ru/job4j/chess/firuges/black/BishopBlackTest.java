@@ -1,10 +1,13 @@
 package ru.job4j.chess.firuges.black;
 
 import org.junit.jupiter.api.Test;
+
 import ru.job4j.chess.ImpossibleMoveException;
+
 import ru.job4j.chess.firuges.Cell;
 
 import static org.assertj.core.api.Assertions.assertThat;
+
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class BishopBlackTest {
