@@ -33,10 +33,12 @@ public final class Logic {
         }
         return true;
     }
+
     public void clean() {
         Arrays.fill(figures, null);
         index = 0;
     }
+
     private int findBy(Cell cell) throws FigureNotFoundException {
         for (int index = 0; index != figures.length; index++) {
             Figure figure = figures[index];
